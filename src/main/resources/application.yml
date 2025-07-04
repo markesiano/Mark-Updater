@@ -1,0 +1,15 @@
+server:
+    port: 8080
+spring:
+    application:
+        name: version-service
+    security:
+        jwt:
+            secret: ${JWT_SECRET}
+app:
+    directory:
+        base: ${BASE_DIR}
+        update:
+            manifest: ${UPDATE_MANIFEST}
+            dist: ${UPDATE_DIST}
+
